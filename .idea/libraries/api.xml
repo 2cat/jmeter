@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/api/bcpkix-jdk15on-1.49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/api/bcprov-jdk15on-1.49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/api/bcmail-jdk15on-1.49.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
