@@ -1,9 +1,4 @@
-.idea
 lib
-src/jmeter.iml
-src/monitor/monitor.iml
-src/protocol/protocol.iml
-test/test.iml
 build
 out
 jmeter.log
