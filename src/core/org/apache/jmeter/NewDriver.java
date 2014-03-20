@@ -71,7 +71,7 @@ public final class NewDriver {
         } else {// e.g. started from IDE with full classpath
             tmpDir = System.getProperty("jmeter.home","");// Allow override $NON-NLS-1$ $NON-NLS-2$
             if (tmpDir.length() == 0) {
-                File userDir = new File(System.getProperty("."));// $NON-NLS-1$
+                File userDir = new File(".");// $NON-NLS-1$
                 tmpDir = userDir.getAbsoluteFile().getParent();
             }
         }
