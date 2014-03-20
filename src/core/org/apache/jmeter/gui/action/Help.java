@@ -46,7 +46,7 @@ public class Help implements Command {
 
     private static final String HELP_DOCS = "file:///"  // $NON-NLS-1$
         + JMeterUtils.getJMeterHome()
-        + "/printable_docs/usermanual/"; // $NON-NLS-1$
+        + "/docs/usermanual/"; // $NON-NLS-1$
 
     private static final String HELP_PAGE = HELP_DOCS + "component_reference.html"; // $NON-NLS-1$
 

@@ -43,7 +43,7 @@ public class ReportHelp implements Command {
 
     private static final Set<String> commands = new HashSet<String>();
 
-    public static final String HELP_DOCS = "file:///" + JMeterUtils.getJMeterHome() + "/printable_docs/usermanual/";
+    public static final String HELP_DOCS = "file:///" + JMeterUtils.getJMeterHome() + "/docs/usermanual/";
 
     public static final String HELP_PAGE = HELP_DOCS + "component_reference.html";
 
