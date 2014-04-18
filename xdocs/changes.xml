@@ -132,7 +132,7 @@ A workaround is to use a Java 7 update 40 runtime which fixes this issue.
 
 <h3>Other Samplers</h3>
 <ul>
-<li><bugzilla>55977</bugzilla> - JDBC pook keepalive flooding</li>
+<li><bugzilla>55977</bugzilla> - JDBC pool keepalive flooding</li>
 <li><bugzilla>55999</bugzilla> - Scroll bar on jms point-to-point sampler does not work when content exceeds display</li>
 <li><bugzilla>56198</bugzilla> - JMSSampler : NullPointerException is thrown when JNDI underlying implementation of JMS provider does not comply with Context.getEnvironment contract</li>
 </ul>
@@ -167,6 +167,7 @@ A workaround is to use a Java 7 update 40 runtime which fixes this issue.
 <li><bugzilla>56059</bugzilla> - Older TestBeans incompatible with 2.11 when using TextAreaEditor</li>
 <li><bugzilla>56080</bugzilla> - Conversion error com.thoughtworks.xstream.converters.ConversionException with Java 8 Early Access Build</li>
 <li><bugzilla>56182</bugzilla> - Can't trigger bsh script using bshclient.jar; socket is closed unexpectedly </li>
+<li><bugzilla>56360</bugzilla> - HashTree and ListedHashTree fail to compile with Java 8</li>
 </ul>
 
 <!-- =================== Improvements =================== -->
@@ -193,6 +194,7 @@ A workaround is to use a Java 7 update 40 runtime which fixes this issue.
 <h3>Listeners</h3>
 <ul>
 <li><bugzilla>56228</bugzilla> - View Results Tree : Improve ergonomy by changing placement of Renderers and allowing custom ordering</li>
+<li><bugzilla>56349</bugzilla> - "summary" is a bad name for a Generate Summary Results component, documentation clarified</li>
 </ul>
 
 <h3>Timers, Assertions, Config, Pre- &amp; Post-Processors</h3>
@@ -211,6 +213,7 @@ A workaround is to use a Java 7 update 40 runtime which fixes this issue.
 <ul>
 <li><bugzilla>21695</bugzilla> - Unix jmeter start script assumes it is on PATH, not a link</li>
 <li><bugzilla>56292</bugzilla> - Add the check of the Java's version in startup files and disable some options when is Java v8 engine</li>
+<li><bugzilla>56298</bugzilla> - JSR223 language display does not show which engine will be used</li>
 </ul>
 
 <ch_section>Non-functional changes</ch_section>
@@ -228,13 +231,15 @@ A workaround is to use a Java 7 update 40 runtime which fixes this issue.
 <p>We thank all contributors mentioned in bug and improvement sections above:
 <ul>
 <li>James Liang (jliang at andera.com)</li>
+<li>Emmanuel Bourg (ebourg at apache.org)</li>
 </ul>
 
 <br/>
 We also thank bug reporters who helped us improve JMeter. <br/>
 For this release we want to give special thanks to the following reporters for the clear reports and tests made after our fixes:
 <ul>
-<li>Oliver LLoyd (email at oliverlloyd.com)</li>
+<li>Oliver LLoyd (email at oliverlloyd.com) for his help on <bugzilla>56119</bugzilla></li>
+<li>Vladimir Ryabtsev (greatvovan at gmail.com) for his help on <bugzilla>56243</bugzilla> and <bugzilla>56276</bugzilla></li>
 </ul>
 
 Apologies if we have omitted anyone else.
